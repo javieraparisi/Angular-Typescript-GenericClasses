@@ -1,4 +1,4 @@
-import {SuperPower} from './SuperPower';
+import {SuperPower} from '../SuperPower';
 
 export class Hero extends SuperPower {
  

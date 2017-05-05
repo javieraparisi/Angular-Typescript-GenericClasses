@@ -1,2 +1,24 @@
-/* Styles go here */
+.divHead {
+  background: transparent url('http://www.fancyicons.com/free-icons/222/simple/png/32/github_32.png') 0 0 no-repeat;
+  height:20px;
+  font: 18px Verdana;
+  padding: 5px 30px 30px 30px;
+}
+.divHead a{
+  color: #0366d6;
+  text-decoration: none;
+}
+.divHead a:hover{
+  text-decoration: underline;
+}
 
+/*Gists*/
+#file-genericclassestypescript_hero-js-LC8, #file-genericclassestypescript_hero-js-LC9 {
+  background-color: yellow; 
+}
+#file-superteam_t-ts-LC2 .pl-en,#file-superteam_t-ts-LC3 .pl-en{
+  background-color: yellow; 
+}
+#file-genericclassestypescript_hero_t-js-LC8,#file-genericclassestypescript_hero_t-js-LC9{
+  background-color: yellow; 
+}

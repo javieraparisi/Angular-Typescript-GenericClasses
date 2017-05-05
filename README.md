@@ -1,0 +1,1 @@
+example of why we must use generic classes in typescript against the typed class with heritage

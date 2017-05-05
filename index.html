@@ -10,15 +10,36 @@
     <script src="https://npmcdn.com/typescript@1.8.10/lib/typescript.js"></script>
     <script src="config.js"></script>
     <script>
-    System.import('app')
-      .catch(console.error.bind(console));
-  </script>
+      System.import('src/heroes/appHeroes_T'); 
+      System.import('src/villains/appVillains_T');
+   
+    </script>
   </head>
 
   <body>
-    <my-app>
+    <div class="divHead"><a href="https://github.com/javieraparisi/Angular2-Typescript-GenericClasses" target="blank">Angular2 TypeScript Generic Classes</a></div>
+    
+    <b>With this typed class</b>
+    <script src="https://gist.github.com/javieraparisi/b53a622df4be6cae7e2db20236965e26.js"></script>
+    
+    <b>You can obtain the members with 'SuperPower' typed ... but we don't want this</b>
+    <script src="https://gist.github.com/javieraparisi/a6047140ba105e9bdb3d4ff1c1348834.js"></script>
+    
+    <b>So you can use this generic class</b>
+    <script src="https://gist.github.com/javieraparisi/77d3103cdbc5959688fb6406e0f05519.js"></script>
+    
+    <b>Then you obtain the members with 'Hero' or 'Villain' typed, perfect!</b>
+    <script src="https://gist.github.com/javieraparisi/eaf1bd3f6f34655692931333eda09238.js"></script>
+    
+    <br/>
+    <h3>* Finally the generic class in use:</h3>
+    <appHeroes>
       Loading...
-    </my-app>
+    </appHeroes>
+    <appVillains>
+      Loading... 
+    </appVillains>
+    
   </body>
 
 </html>

@@ -2,18 +2,15 @@
 import {Component} from '@angular/core';
 import {bootstrap} from '@angular/platform-browser-dynamic';
 import {Hero} from './Hero';
-import {SuperTeam} from './SuperTeam';
-import {SuperPower} from './SuperPower';
-
-
+import {SuperTeam} from '../SuperTeam';
+import {SuperPower} from '../SuperPower';
 
 @Component({
-  selector: 'my-app',
-  templateUrl: 'src/app.html'
+  selector: 'appHeroes',
+  templateUrl: 'src/heroes/appHeroes.html'
 })
 
-export class App {
-  fakeArray = new Array(12);
+export class AppHeroes {
   public members:Hero[];
   
   constructor() {
@@ -33,4 +30,4 @@ export class App {
 
 }  
 
-bootstrap(App);
+bootstrap(AppHeroes);
